@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { FieldValues, useForm, SubmitHandler } from "react-hook-form";
 import { Toaster, toast } from "react-hot-toast";
-import { IoIosArrowForward } from "react-icons/Io";
+import { IoIosArrowForward } from "react-icons/io";
 import { MdError } from "react-icons/md";
 
 export default function Home() {
