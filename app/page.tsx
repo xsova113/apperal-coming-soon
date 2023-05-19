@@ -103,7 +103,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="w-screen h-screen sm:w-full sm:h-screen z-50">
+              <div className="w-full h-screen sm:w-full sm:h-screen z-50">
                 <Image
                   src="/images/hero-desktop.jpg"
                   alt="banner"
