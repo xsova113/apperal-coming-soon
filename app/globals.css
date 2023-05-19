@@ -2,26 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.formInput {
+  @apply overflow-auto border-[1px] rounded-full mt-10 h-12 w-full border-red-200 pl-8 placeholder:text-red-300 focus:outline-none;
+}
+
+.formButton {
+  @apply relative right-10 top-[11px] -mr-10 rounded-full bg-gradient-to-l from-red-300 to-red-200 w-28 h-12 shadow-lg shadow-red-200 hover:from-red-200 hover:to-red-100;
 }
