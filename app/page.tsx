@@ -18,7 +18,7 @@ export default function Home() {
   });
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
-    toast.success(data.email);
+    toast.success("Thank you for tuning in!");
   };
 
   return (
@@ -51,7 +51,9 @@ export default function Home() {
                   <div className="flex-col">
                     <section className="mt-32">
                       <h1 className="text-[50px] font-bold leading-[55px] tracking-[20px] text-[#413A3A]">
-                        <span className="text-[#CE9797] font-light">WE&apos;RE</span>
+                        <span className="text-[#CE9797] font-light">
+                          WE&apos;RE
+                        </span>
                         <br />
                         COMING
                         <br />
@@ -59,8 +61,8 @@ export default function Home() {
                       </h1>
                     </section>
                     <p className="mt-8 text-[16px] text-[#CE9797] leading-8 font-normal">
-                      Hello fellow shoppers! We&apos;re currently building our new
-                      fashion store. Add your email below to stay up-to-date
+                      Hello fellow shoppers! We&apos;re currently building our
+                      new fashion store. Add your email below to stay up-to-date
                       with announcements and our launch deals. Email Address
                     </p>
 
